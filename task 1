@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratoriya 5 - Tapşırıq 1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="sehife">
+        <div class="qutu yasil"></div>
+        <div class="qutu mavi"></div>
+        <div class="qutu sari"></div>
+        <div class="qutu qirmizi"></div>
+    </div>
+
+</body>
+</html>
+
+CSS
+
+
+body {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.sehife {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto; 
+}
+
+
+.qutu {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+
+.yasil {
+    background-color: #2e7d32;
+    top: 50px;
+    left: 50px;
+}
+
+.mavi {
+    background-color: #0000ff;
+    top: 50px;
+    left: 220px;
+}
+
+.sari {
+    background-color: #ffff4d;
+    top: 140px;
+    left: 120px;
+}
+
+.qirmizi {
+    background-color: #e53935;
+    top: 140px;
+    left: 290px;
+}
+
