@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <div id="margin"> Margin
+        <div id="border"> Border
+            <div id="padding"> Padding
+                <div id="content"> Content </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+CSS
+
+div {
+    padding: 20px;
+    text-align: center;
+}
+
+#margin { border: 2px dashed black; width: 500px; }
+#border { background: green; }
+#padding { background: lightgray; }
+#content { border: 1px dashed red; background: white; }
