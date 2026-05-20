@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="kart">
+        <div class="sekil"></div>
+        <p>Məhsul 1 - 10 AZN</p>
+    </div>
+
+    <div class="kart">
+        <div class="sekil"></div>
+        <p>Məhsul 2 - 15 AZN</p>
+    </div>
+
+    <div class="kart">
+        <div class="sekil"></div>
+        <p>Məhsul 3 - 20 AZN</p>
+    </div>
+
+</body>
+</html>
+
+CSS
+body {
+    background: gray;
+}
+
+.kart {
+    background: white;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block; /* Kartları yan-yana düzür */
+}
+
+.sekil {
+    background: lightblue;
+    width: 100%;
+    height: 120px;
+}
